@@ -4,7 +4,7 @@ public class Example_Scanner {
 
     public void mandarMensaje(){
         //Aqui se mandara el mensaje
-        
+        System.out.println("Hola mundo");
     }
     
     public static void main(String[] args) {
@@ -27,6 +27,7 @@ public class Example_Scanner {
             System.out.println("a");
             
         }
+        
         
 
 
