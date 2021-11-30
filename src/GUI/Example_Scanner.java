@@ -13,7 +13,7 @@ public class Example_Scanner {
 
         int edad;
         String nombre;
-
+        EjemploClase.edadGlobal = 19;
         
 
         System.out.println("Ingrese su nombre");
@@ -30,14 +30,6 @@ public class Example_Scanner {
             
         }
         
-        
-
-
-
-
- 
-        
-
         
     }
 }
