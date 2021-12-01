@@ -10,7 +10,7 @@ public class Example_Scanner {
     public static void main(String[] args) {
         mandarMensaje();
         Scanner objScanner = new Scanner(System.in);
-
+        
         int edad;
         String nombre;
         EjemploClase.edadGlobal = 19;
