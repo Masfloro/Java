@@ -1,20 +1,21 @@
 package GUI;
+
 import java.util.Scanner;
+
 public class Example_Scanner {
 
-    public static void mandarMensaje(){
-        //Aqui se mandara el mensaje
+    public static void mandarMensaje() {
+        // Aqui se mandara el mensaje
         System.out.println("Hola mundo");
     }
-    
+
     public static void main(String[] args) {
         mandarMensaje();
         Scanner objScanner = new Scanner(System.in);
-        
+
         int edad;
         String nombre;
         EjemploClase.edadGlobal = 19;
-        
 
         System.out.println("Ingrese su nombre");
         nombre = objScanner.nextLine();
@@ -23,13 +24,12 @@ public class Example_Scanner {
 
         System.out.println("Bienvenido " + nombre + " de " + edad + " años");
 
-        if (edad<= 20) {
+        if (edad <= 20) {
             System.out.println("\t siguiente");
         } else {
             System.out.println("a");
-            
+
         }
-        
-        
+
     }
 }
